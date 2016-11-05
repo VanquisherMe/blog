@@ -68,4 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  reop: git@github.com:VanquisherMe/blog.git
+brabch: gh-pages
+message: {{ now('YYYY-MM-DD HH:mm:ss') }}
