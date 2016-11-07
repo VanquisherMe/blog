@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: blog.chen
 subtitle:
 description:
-author: John Doe
-language:
+author: Mr Chen
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://vanquisherme.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,12 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  reop: git@github.com:VanquisherMe/blog.git
-brabch: gh-pages
-message: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  repo:
+      github: https://github.com/VanquisherMe/VanquisherMe.github.io.git
